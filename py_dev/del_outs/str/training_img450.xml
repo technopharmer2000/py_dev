@@ -1,0 +1,50 @@
+<annotation>
+	<folder>train</folder>
+	<filename>training_img450.jpg</filename>
+	<path>/Users/behar/Documents/PycharmProjects/tf_classifier/models/research/object_detection/images/train/training_img450.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1500</width>
+		<height>1500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>flat washer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>630</xmin>
+			<ymin>1213</ymin>
+			<xmax>783</xmax>
+			<ymax>1341</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>flat washer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>793</xmin>
+			<ymin>1011</ymin>
+			<xmax>924</xmax>
+			<ymax>1135</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hex bolt</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>581</xmin>
+			<ymin>1186</ymin>
+			<xmax>904</xmax>
+			<ymax>1294</ymax>
+		</bndbox>
+	</object>
+</annotation>

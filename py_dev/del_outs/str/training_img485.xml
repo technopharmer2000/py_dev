@@ -1,0 +1,38 @@
+<annotation>
+	<folder>train</folder>
+	<filename>training_img485.png</filename>
+	<path>/Users/behar/Documents/PycharmProjects/tf_classifier/models/research/object_detection/images/train/training_img485.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>894</width>
+		<height>371</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hex bolt</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>27</xmin>
+			<ymin>100</ymin>
+			<xmax>305</xmax>
+			<ymax>339</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hex bolt</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>553</xmin>
+			<ymin>90</ymin>
+			<xmax>831</xmax>
+			<ymax>329</ymax>
+		</bndbox>
+	</object>
+</annotation>

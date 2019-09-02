@@ -1,0 +1,38 @@
+<annotation>
+	<folder>train</folder>
+	<filename>training_img446.jpg</filename>
+	<path>/Users/behar/Documents/PycharmProjects/tf_classifier/models/research/object_detection/images/train/training_img446.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>550</width>
+		<height>459</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>loaded bolt</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>51</xmin>
+			<ymin>152</ymin>
+			<xmax>495</xmax>
+			<ymax>318</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hex nut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>96</xmin>
+			<ymin>326</ymin>
+			<xmax>223</xmax>
+			<ymax>447</ymax>
+		</bndbox>
+	</object>
+</annotation>

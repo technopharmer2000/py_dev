@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>training_img473.png</filename>
+	<path>/Users/behar/Documents/PycharmProjects/tf_classifier/models/research/object_detection/images/train/training_img473.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>342</width>
+		<height>290</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>flat washer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>109</xmin>
+			<ymin>115</ymin>
+			<xmax>224</xmax>
+			<ymax>216</ymax>
+		</bndbox>
+	</object>
+</annotation>
