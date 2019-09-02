@@ -2,22 +2,22 @@ import matplotlib.pyplot as plt
 import csv
 import os
 
+x_months = []
+y1_internet = []
+y2_electric =[]
+y3_gas = []
+y4_water = []
 
 with open('csv_test.csv', 'r') as csvfile:
-    x = []
-    y = []
 
     plots = csv.reader(csvfile, delimiter=',')
-    lines = csvfile.readlines()
-    print (lines[0])
-    """def num_y_vars():
-        n = 1
-        for i in plots[colunm]
+    for row in plots:
+        x_months.append((row[0]))
+        y1_internet.append((row[1]))
 
-    for row in plot:
-        x.append([0]))
-        y.append(int(row[1]))
 
-plt.plot([1,2,3,4])
-plt.ylabel('some numbers')
+print (x_months,y1_internet)
+"""plt.plot(x_months,y1_internet)
+plt.ylabel('Cost')
+plt.xlabel('Months')
 plt.show()"""
