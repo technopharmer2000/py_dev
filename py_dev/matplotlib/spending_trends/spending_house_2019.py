@@ -25,34 +25,33 @@ with open('csv_test_2019.csv', 'r') as csvfile:
 #Plot of all expenses on same subplot
 """
 plt.figure(1)
-plt.suptitle('Monthly House Costs')
 plt.plot(x_months, y1_internet, 'rs', x_months, y2_electric, 'bo', x_months, y3_gas, 'g^', x_months, y4_water)
 """
 
-
 plt.figure(2, figsize=(15, 8))
+plt.suptitle('Monthly House Costs')
 #Graph of monthly electricity cost
 plt.subplot(221)
 plt.bar(x_months, y2_electric, color='r')
-plt.ylim(0,max(y5_total))
+plt.ylim(0,max(y5_total)+10)
 plt.title('Electricity')
 
 #Graph of monthly gas cost
 plt.subplot(222)
 plt.bar(x_months, y3_gas, color='g')
-plt.ylim(0,max(y5_total))
+plt.ylim(0,max(y5_total)+10)
 plt.title('Gas')
 
 #Graph of monthly water cost
 plt.subplot(223)
 plt.bar(x_months, y4_water, color='y')
-plt.ylim(0,max(y5_total))
+plt.ylim(0,max(y5_total)+10)
 plt.title('Water')
 
 #Graph of total monthly cost
 plt.subplot(224)
 plt.bar(x_months, y5_total)
-plt.ylim(0,max(y5_total))
+plt.ylim(0,max(y5_total)+10)
 plt.title('Total')
 
 plt.ylabel('Cost')
