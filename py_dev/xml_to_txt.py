@@ -1,3 +1,5 @@
+#Script to convert PASCAL VOC format to YOLO format
+
 import glob
 import os
 import pickle
@@ -15,6 +17,7 @@ def getImagesInDir(dir_path):
 
     return image_list
 
+#Labelimg rounds values to 6 places - remove round() for higher percision 
 def convert(size, box):
     dw = 1./(size[0])
     dh = 1./(size[1])
